@@ -1,0 +1,382 @@
+{
+  "profissionais": [
+    {
+      "id": 1,
+      "imagem": "/assets/img/Ellipse 4.png",
+      "nome": "Ana Luiza",
+      "especialidade": "Clínico Geral",
+      "nota": 4.5
+    },
+    {
+      "id": 2,
+      "imagem": "/assets/img/Ellipse 4.png",
+      "nome": "Caroline Carvalho",
+      "especialidade": "Nutricionista",
+      "nota": 4.6
+    },
+    {
+      "id": 3,
+      "imagem": "/assets/img/Ellipse 4.png",
+      "nome": "Camila Fernanda",
+      "especialidade": "Oftamologista",
+      "nota": 4.3
+    },
+    {
+      "id": 4,
+      "imagem": "/assets/img/Ellipse 4.png",
+      "nome": "Bruno Divino",
+      "especialidade": "Psiquiatra",
+      "nota": 4.7
+    }
+  ],
+  "clinicas": [
+    {
+      "id": 1,
+      "nome": "Clinica teste 1",
+      "cnpj": "07437466000106",
+      "email": "vendas@vitrinelingerie.com.br",
+      "telefone": "(019) 3623-1914",
+      "endereco": {
+        "rua": "Ademar de Barros",
+        "numero": "215",
+        "complemento": "",
+        "cep": "13870010",
+        "cidade": "São João da Boa Vista",
+        "estado": "São Paulo"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Clinica teste 2",
+      "cnpj": "36400719000167",
+      "email": "contato@2rassessoriacontabil.com.br",
+      "telefone": "(019) 3623-1914",
+      "endereco": {
+        "rua": "Visconde do Rio Branco",
+        "numero": "726",
+        "complemento": "Sala 01",
+        "cep": "13.870-010",
+        "cidade": "São João da Boa Vista",
+        "estado": "São Paulo"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Clinica teste 3",
+      "cnpj": "48214387000105",
+      "email": "contato@editorafinantech.com.br",
+      "telefone": "(019) 3623-1914",
+      "endereco": {
+        "rua": "Vergueiro",
+        "numero": "1.000",
+        "complemento": "Edificio Alfa - Torre B - Apartamento 35",
+        "cep": "13.870010",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Clinica teste 4",
+      "cnpj": "12200400000100",
+      "email": "HOTMAIL@GMAIL.COM",
+      "telefone": "+ 341 (33) 99810-750",
+      "endereco": {
+        "rua": "Teste Clinica 4",
+        "numero": "9",
+        "complemento": "",
+        "cep": "13870-010",
+        "cidade": "Ouro Preto",
+        "estado": "Minas Gerais - MG"
+      }
+    },
+    {
+      "headers": {
+        "contentType": "application/json"
+      },
+      "body": {
+        "data": {
+          "nome": "Raphael Rodrigues",
+          "cnpj": "36.400.719/0001-67",
+          "email": "contato@2rassessoriacontabil.com.br",
+          "telefone": "(019) 99548-7261",
+          "endereco": {
+            "rua": "Rua Visconde do Rio Branco",
+            "numero": "726",
+            "complemento": "Sala 01",
+            "cep": "13.870-010",
+            "cidade": "São João da Boa Vista ",
+            "estado": "SP"
+          }
+        }
+      },
+      "id": 5
+    },
+    {
+      "headers": {
+        "contentType": "application/json"
+      },
+      "body": {
+        "data": {
+          "nome": "Claudinei Peres Rodrigues",
+          "cnpj": "07437466000106",
+          "email": "vendas@vitrinelingerie.com.br",
+          "telefone": "(019) 994157825",
+          "endereco": {
+            "rua": "Avenida Lazaro Pio Magalhaes",
+            "numero": "164",
+            "complemento": "",
+            "cep": "",
+            "cidade": "São João da Boa Vista",
+            "estado": "São Paulo - SP"
+          }
+        }
+      },
+      "id": 6
+    }
+  ],
+  "consultas": [
+    {
+      "id": 1,
+      "data": "2022-01-24",
+      "horario": "08:30",
+      "profissional": {
+        "nome": "Ana Luiza",
+        "especialidade": "Clínico Geral"
+      },
+      "paciente": "Larissa Gabriela",
+      "modalidade": "Particular"
+    },
+    {
+      "id": 2,
+      "data": "2022-01-25",
+      "horario": "08:30",
+      "profissional": {
+        "nome": "Caroline Carvalho",
+        "especialidade": "Nutricionista"
+      },
+      "paciente": "Guilherme Lira",
+      "modalidade": "Particular"
+    },
+    {
+      "id": 3,
+      "data": "2018-11-31",
+      "horario": "00:00",
+      "profissional": {
+        "nome": "Raphael Rodrigues",
+        "especialidade": "Programador"
+      },
+      "paciente": "2R Assessoria Empresarial",
+      "modalidade": "Particular"
+    },
+    {
+      "id": 4,
+      "data": "2010-1-5",
+      "horario": "18:55",
+      "profissional": {
+        "nome": "Caroline C. Nunes de Carvalho",
+        "especialidade": "Médica Veterinária"
+      },
+      "paciente": "Animais",
+      "modalidade": "Pública"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "data": "2022-04-01",
+      "horario": "10:30",
+      "profissional": [
+        {
+          "nome": "Ana Luiza",
+          "especialidade": "Clínico Geral"
+        }
+      ],
+      "nota": 4.5
+    },
+    {
+      "id": 2,
+      "data": "2022-04-01",
+      "horario": "10:30",
+      "profissional": [
+        {
+          "nome": "Caroline Carvalho",
+          "especialidade": "Nutricionista"
+        }
+      ],
+      "nota": 4.5
+    }
+  ],
+  "qntdconsultas": [
+    {
+      "id": 1,
+      "quantidade": 55,
+      "profissional": {
+        "nome": "Ana Luiza",
+        "especialidade": "Clínico Geral"
+      }
+    },
+    {
+      "id": 2,
+      "quantidade": 108,
+      "profissional": {
+        "nome": "Raphael Rodrigues",
+        "especialidade": "Cardiologista"
+      }
+    },
+    {
+      "id": 3,
+      "quantidade": 7,
+      "profissional": {
+        "nome": "Claudinei Peres Rodrigues",
+        "especialidade": "Otorrinolaringologista"
+      }
+    },
+    {
+      "id": 4,
+      "quantidade": 309,
+      "profissional": {
+        "nome": "Nijane Medina Bozelli Rodrigues",
+        "especialidade": "Clínico Geral"
+      }
+    }
+  ],
+  "especialistas": [
+    {
+      "id": 1,
+      "nome": "Raphael Rodrigues",
+      "email": "contato@2rassessoriacontabil.com.br",
+      "telefone": "55 (019) 99415-7825",
+      "endereco": {
+        "cep": "13.870-010",
+        "rua": "Visconde do Rio Branco",
+        "numero": "726",
+        "complemento": "Sala 01",
+        "cidade": "São João da Boa Vista",
+        "estado": "SP"
+      },
+      "especialidade": "Cardiologista",
+      "crm": "SP3390-0/B",
+      "plano": "Sim",
+      "planos": [
+        "Sulamerica",
+        "Unimed",
+        "Outro"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Claudinei Peres Rodrigues",
+      "email": "vendas@vitrinelingerie.com.br",
+      "telefone": "55 (019) 3623-1914",
+      "endereco": {
+        "cep": "13.870-080",
+        "rua": "Ademar de Barros",
+        "numero": "270",
+        "complemento": "274",
+        "cidade": "São João da Boa Vista",
+        "estado": "SP"
+      },
+      "especialidade": "Otorrinolaringologista",
+      "crm": "90873390-1B/02",
+      "plano": "Sim",
+      "planos": [
+        "Biovida",
+        "Unimed"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Nijane Medina Bozelli Rodrigues",
+      "email": "rprodrigues92@gmail.com",
+      "telefone": "55 (019) 99548-7261",
+      "endereco": {
+        "cep": "13.874-137",
+        "rua": "Av. Lázaro Pio Magalhâes",
+        "numero": "164",
+        "complemento": "",
+        "cidade": "São João da Boa Vista",
+        "estado": "MG"
+      },
+      "especialidade": "Pneumologista",
+      "crm": "267-o/2",
+      "plano": "Não",
+      "planos": []
+    },
+    {
+      "id": 4,
+      "nome": "Michele Medina Bozelli Rodrigues",
+      "email": "rapha.per@hotmail.com",
+      "telefone": "(019) 3623-4728",
+      "endereco": {
+        "cep": "04.870-010",
+        "rua": "Visconde do Rio Branco",
+        "numero": "",
+        "complemento": "Sala 01",
+        "cidade": "Mariana",
+        "estado": "SP"
+      },
+      "especialidade": "Clinico Geral",
+      "crm": "SP3390892-02/C-1",
+      "plano": "Sim",
+      "planos": [
+        "Outro"
+      ]
+    },
+    {
+      "headers": {
+        "contentType": "application/json"
+      },
+      "body": {
+        "data": {
+          "nome": "Nome Aleatorio",
+          "email": "nomealeatorio@gmail.com",
+          "telefone": "",
+          "endereco": {
+            "cep": "",
+            "rua": "Avenida Paulista",
+            "numero": "890",
+            "complemento": "Bloco B",
+            "cidade": "Minas Gerais",
+            "estado": "MG"
+          },
+          "especialidade": "Especialidade Aleatoria",
+          "crm": "MG-908761/O-4C",
+          "plano": "sim",
+          "planos": [
+            "Biovida",
+            "Bradesco",
+            "Biosaúde",
+            "Amil"
+          ]
+        }
+      },
+      "id": 5
+    },
+    {
+      "headers": {
+        "contentType": "application/json"
+      },
+      "body": {
+        "data": {
+          "nome": "Teste 2",
+          "email": "teste2@hotmail.com",
+          "telefone": "+55 19 351 99567-1090",
+          "endereco": {
+            "cep": "13.870-010",
+            "rua": "Rua Visconde do Rio Branco",
+            "numero": "04",
+            "complemento": "Apartamento 01-D",
+            "cidade": "M",
+            "estado": "MG"
+          },
+          "especialidade": "Especialidade Teste 2",
+          "crm": "",
+          "plano": "não",
+          "planos": []
+        }
+      },
+      "id": 6
+    }
+  ]
+}
